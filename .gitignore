@@ -1,0 +1,8 @@
+.DS_Store
+keys.py
+Frames/
+Images/
+Cropped/
+clips/
+driver/
+__pycache__/
