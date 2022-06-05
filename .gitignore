@@ -1,5 +1,4 @@
 .DS_Store
-keys.py
 Frames/
 Images/
 Cropped/
@@ -15,3 +14,4 @@ clip 37.mp4
 cut1.mp3
 instagram.txt
 notes.txt
+keys/

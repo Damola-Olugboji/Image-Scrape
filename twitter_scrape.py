@@ -2,7 +2,7 @@ import tweepy
 import os
 import requests
 from random import randrange
-from keys import *
+from keys.keys import *
 
 
 def scrape_images(screen_name):

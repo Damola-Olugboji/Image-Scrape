@@ -2,7 +2,7 @@ import os
 import discord
 import asyncio
 import cv2
-from keys import *
+from keys.keys import *
 
 
 client = discord.Client()
