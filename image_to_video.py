@@ -27,7 +27,7 @@ def main():
             except:
                 continue
 
-        clip = moviepy.video.io.ImageSequenceClip.ImageSequenceClip(image_list, fps=0.5)
+        clip = moviepy.video.io.ImageSequenceClip.ImageSequenceClip(image_list, fps=0.3)
         clip.write_videofile("clips/output{}.mp4".format(iterator))
         print("complete")
         image_list.clear()

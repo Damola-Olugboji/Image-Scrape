@@ -67,9 +67,23 @@ if __name__ == "__main__":
         "HarariMelesay",
     ]
     punkRock = ["PunkRockStory"]
+    architecture = ["arab11__", "MonochromeMis", "1by1work"]
 
-    save_path = "/Users/damolaolugboji/Desktop/code/Image Scrape/Frames/risque"
-    for account in cultural:
+    goHard = [
+        "WallpaperHQ1",
+        "isthatkap",
+        "fightpicsgohard",
+        "f1_hardpics",
+        "cycIingpics",
+        "HardWrestlePics",
+        "boxing_history",
+    ]
+    artwork = [
+        "ArtOrthodox",
+    ]
+
+    save_path = "/Users/damolaolugboji/Desktop/code/Image Scrape/goHard"
+
+    for account in goHard:
         scrape_images(account)
-    for account in punkRock:
-        scrape_images(account)
+

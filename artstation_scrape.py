@@ -40,7 +40,7 @@ def artstationScraper(driver, website_path, artist_name):
             time.sleep(3)
 
         except NoSuchElementException:
-            test = False
+            continue
 
     print("Closing Window...")
     driver.close()
@@ -82,9 +82,9 @@ if __name__ == "__main__":
     driver = webdriver.Chrome(executable_path=webdriver_path)
     # site = sys.argv[1]
     # artist_name = sys.argv[2]
-    site = "https://www.artstation.com/artwork/xYJ03O"
-    artist_name = "Wyman Pang"
-    # artist_name = Louis Lin
-    # site = https://www.artstation.com/artwork/Vy0yAX
+    # site = "https://www.artstation.com/artwork/xYJ03O"
+    # artist_name = "Wyman Pang"
+    artist_name = "Louis Lin"
+    site = "https://www.artstation.com/artwork/Vy0yAX"
 
     artstationScraper(driver, site, artist_name)
